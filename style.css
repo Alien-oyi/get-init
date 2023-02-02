@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 1px;
 }
 a {
@@ -15,10 +14,12 @@ a {
 .header nav { 
     margin-right: 20px;
     float: right;
+    
 }
 
 .header nav ul {
     list-style-type: none;
+    margin:0;
 }
 
 .header nav ul li {
@@ -45,6 +46,7 @@ div {
     color:brown;
     font-weight: bolder;
 }
+
 .comingsoon {
     box-sizing:border-box;
     display: block;
@@ -61,8 +63,8 @@ p {
     margin-bottom:10px;
     margin-left: 400px;
 }
-.cotact {
+.contact {
     box-sizing: border-box;
-    position:absolute;
-    margin-top: 0px;
+    background-color: #035c33;
+    margin-left: 0px;
 }
