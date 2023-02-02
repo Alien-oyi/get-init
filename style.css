@@ -34,7 +34,7 @@ div {
     padding: auto;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 500px;
+    margin-left: 700px;
 }
 .boxx {
     box-sizing: content-box;
@@ -50,7 +50,7 @@ div {
 .comingsoon {
     box-sizing:border-box;
     display: block;
-    padding: 100px;
+    padding: 200px;
     margin: 0;
     margin-left:400px;
 }
@@ -61,10 +61,23 @@ div {
 p {
     position: relative;
     margin-bottom:10px;
-    margin-left: 400px;
+    margin-left: 700px;
 }
 .contact {
-    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
     background-color: #035c33;
     margin-left: 0px;
+    
 }
+.bigbox {
+    display: flex;
+}
+.img {
+    margin-left: 100px;
+}
+figcaption{
+        margin-left: -150px;
+        margin-top: 80px;
+        font-size: 10px;
+    }
