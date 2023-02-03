@@ -30,11 +30,10 @@ a {
 }
 div {
     box-sizing: border-box;
-    margin: 0;
     padding: auto;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 700px;
+    margin-left: 800px;
 }
 .boxx {
     box-sizing: content-box;
@@ -47,13 +46,7 @@ div {
     font-weight: bolder;
 }
 
-.comingsoon {
-    box-sizing:border-box;
-    display: block;
-    padding: 200px;
-    margin: 0;
-    margin-left:400px;
-}
+
 .anywhere {
     font-size:xx-large;
     font-weight: bolder;
@@ -72,12 +65,13 @@ p {
 }
 .bigbox {
     display: flex;
+    height: 600px;
+    width: 1600px;
+    justify-content: center;
+    align-items: stretch;
 }
-.img {
-    margin-left: 100px;
+
+figcaption {
+       margin-left: -450px;
+       margin-top:240px;
 }
-figcaption{
-        margin-left: -150px;
-        margin-top: 80px;
-        font-size: 10px;
-    }
