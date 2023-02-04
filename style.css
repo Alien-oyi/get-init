@@ -75,3 +75,20 @@ figcaption {
        margin-left: -450px;
        margin-top:240px;
 }
+.form {
+    padding: 5px;
+}
+.contact-form {
+    padding-bottom: 10px;
+    font-size: 100%;
+    position: relative;
+    right: 100px;
+}
+.form label {
+    display: inline;
+}
+.button {
+    position: relative;
+    margin-left: 800px;
+} 
+
